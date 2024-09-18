@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define N 4
+#define N 4 //change this
 
 int compare(const void* a, const void* b);
 
 int main(){
 
-int A[3][N] = {{3,3,2,2},{9,2,6,5},{7,5,9,3}};
+int A[3][N] = {{3,3,2,2},{9,2,6,5},{7,5,9,3}}; // change this
 int sum[3] = {0};
 int sumsize = sizeof(sum) / sizeof(sum[0]);
 
